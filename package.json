@@ -1,0 +1,42 @@
+{
+  "name": "wikit-desktop",
+  "version": "0.0.1",
+  "private": true,
+  "description": "A universal dictionary",
+  "author": "ikey4u <pwnkeeper@gmail.com>",
+  "scripts": {
+    "tauri": "tauri",
+    "tauri:build": "vue-cli-service tauri:build",
+    "tauri:serve": "vue-cli-service tauri:serve"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "@tauri-apps/api": "^1.0.0-beta-rc.3",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "quasar": "^2.0.0"
+  },
+  "devDependencies": {
+    "@quasar/app": "^3.0.0",
+    "@tauri-apps/cli": "^1.0.0-beta-rc.4",
+    "@types/node": "^12.20.21",
+    "vue-cli-plugin-tauri": "~1.0.0-beta.6"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 12.22.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "productName": "Wikit App"
+}
