@@ -14,7 +14,16 @@
     
     or
     
+    
+    
+
+    
+    cd src-tauri
+    mkdir dist/spa -p
+    
     yarn create quasar
+    beforeDevCommand: yarn quasar dev
+    beforeBuildCommand: yarn quasar build
 
 安装 tauri cli
 
@@ -54,6 +63,7 @@
     
     or 
     
-    yarn quasar dev
+    cargo tauri dev     
+    
     
 
